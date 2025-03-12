@@ -1,6 +1,14 @@
+:root {
+    --color-base:#333333;
+    --color-base-figure-background: #f2eded;
+    --color-base-figure-border: #ccc;
+}
+
+
 body {
-    color:#333333;
-    font-family:"Lucida Sans Unicode", "Lucida Grande", "sans-serif";
+    color: var(--color-base);
+    font-family:"Roboto", sans-serif;
+    font-weight: 400;
     margin-left: auto;
     margin-right: auto;
     width: 940px;
@@ -8,14 +16,16 @@ body {
 h1 {
     background-image: url(../img/sobre-background.jpg);
     padding: 10px;
+    font-family: "Yanone Kaffeesatz", sans-serif;
 }
 h2{
-    border-bottom: 2px groove #333333;
+    border-bottom: 2px groove var(--color-base);
     margin-top: 30px;
+    font-family: "Ysabeau SC", sans-serif;
 }
 figure {
-    background-color: #f2eded;
-    border: 1px solid #ccc;
+    background-color: var(--color-base-figure-background);
+    border: 1px solid var(--color-base-figure-border);
     text-align: center;
     padding: 15px;
     margin: 30px;
