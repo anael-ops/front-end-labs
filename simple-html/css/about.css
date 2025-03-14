@@ -4,6 +4,9 @@
     --color-base-figure-border: #ccc;
 }
 
+html {
+    scroll-behavior: smooth;
+}
 
 body {
     color: var(--color-base);
